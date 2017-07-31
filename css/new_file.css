@@ -1,0 +1,161 @@
+.wrap{
+	width: 100%;
+	height: 30px;
+	background:#F8F8F8;
+}
+.wrap .header{
+	width: 1200px;
+	height: 100%;
+	border: 1px solid black;
+	margin: 0 auto;
+	
+}
+.wrap .header li{
+	position: relative;
+	float: left;
+	line-height: 30px;
+	font-size: 14px;
+	margin: 0 10px;
+}
+.wrap .header li a{
+	color:gray;
+}
+.wrap .header li i{
+	position: absolute;
+    top: 13px;
+    right: -10px;
+	background: url(../img/ui.png)no-repeat -62px -433px;
+    width: 7px;
+    height: 4px;
+    overflow: hidden;
+}
+.wrap .header li:hover i{
+    background-position: -55px -433px;
+	
+}
+.wrap .header li:hover a{
+	color: red;
+}
+.nav_left li:nth-child(1) a{
+	color: black;
+}
+.nav_left li:nth-child(2){
+	height: 10px;
+	border-right: 1px solid gainsboro;
+	margin-top: 10px;
+	margin-right: 0;
+}
+.nav_left li:nth-child(3){
+	margin-left: 0;
+	position: relative;
+}
+.wrap .header .screenshot{
+	position: relative;
+	border: 1px solid transparent;
+	padding:6px 15px;
+	font-weight: normal;
+}
+.wrap .header .screenshot:hover{
+	border: 1px solid #F8F8F8;
+	background: white;
+}
+.wrap .header .screenshot i{
+	position: absolute;
+	top: 15px;
+	right: 5px;
+}
+.nav_left{
+	float: left;
+}
+.nav_left li:nth-child(1) em{
+	background: url(../img/ui.png)no-repeat 0 -1359px;
+	width: 16px;
+    height: 15px;
+    display: inline-block;
+}
+.nav_right{
+	float: right;
+}
+.wrap .header .screenshot em{
+	color: red;
+}
+.nav_left li:nth-child(3) .hide1{
+	position: absolute;
+	height: 220px;
+	width: 320px;
+	border: 1px solid gray;
+	top: 31px;
+}
+.nav_left li:nth-child(3) .hide1:hover a{
+	color: gray;
+}
+.nav_left li:nth-child(3) .hide1 em{
+	background: url(../img/ui.png)no-repeat 0 -337px;
+	float: left;
+    width: 55px;
+    height: 55px;
+    border-radius: 50px;
+    margin: 10px;
+}
+.hide_top{
+	margin:0 10px;
+	height: 90px;
+	border-bottom:1px solid gainsboro ;
+}
+.hide_top p{
+	padding-top:30px ;
+}
+.hide1 .hide_top p a{
+	color: blue;
+}
+.hide1 .hide_top p a:hover{
+	color: blue;
+}
+.hide1 .hide_bot {
+	margin:0 10px ;
+	height: 130px;
+	position: relative;
+}
+.hide1 .hide_bot p{
+	width: 100%;
+}
+.hide1 .hide_bot p a{
+	float: right;
+}
+.hide1 .hide_bot p a:hover{
+	color: red;
+}
+.hide1 .hide_bot .box-float{
+	width: 100%;
+	font-size: 40px;
+	position: absolute;
+	top: 50%;
+	margin-top: -20px;
+}
+.hide1 .hide_bot b .left{
+	float: left;
+}
+.hide1 .hide_bot b .right{
+	float: right;
+}
+.hide1 .hide_bot .slide{
+	height:70px;
+	width: 720px;
+	margin: 15px 35px;
+	position: relative;
+}
+.hide1 .hide_bot .slide span{
+	line-height: 70px;
+}
+.hide1 .hide_bot{
+	overflow: hidden;
+}
+.hide1 .hide_bot .slide b{
+	font-size: 40px;
+	position: absolute;
+	top: -40px;
+}
+.hide1 .hide_bot .slide a{
+	line-height: 120px;
+	padding: 0 10px;	
+}
